@@ -1,9 +1,16 @@
 import React from "react";
+import SongsList from "./SongList";
 
 const App = () => {
-    return (
-        <div>App</div>
-    )
-}
+  return (
+    <div className="ui container grid">
+      <div className="ui row">
+        <div className="column eight wide">
+          <SongsList />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;
